@@ -1,0 +1,17 @@
+How memory is managed in Python?
+
+Memory Management in Python
+1. Automatic Memory Management:
+Python automatically handles memory. You don't need to manage it manually.
+
+2. Heap Memory:
+Python stores all objects in a special area of memory called the heap.
+
+3. Reference Counting:
+Python tracks how many times an object is being used. When no one is using it anymore, Python removes it.
+
+4. Garbage Collection:
+Python automatically deletes unused objects using garbage collection to free memory.
+
+5. Efficient Memory Allocation:
+Python uses a method called pymalloc to handle small memory blocks efficiently.
